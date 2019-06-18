@@ -1,0 +1,9 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\bin\Debug\Aplicacion.ConsultaPaciente.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\bin\Debug\Aplicacion.ConsultaPaciente.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\obj\Debug\Aplicacion.ConsultaPaciente.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\obj\Debug\Aplicacion.ConsultaPaciente.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\bin\Debug\Aplicacion.ConsultaPaciente.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\bin\Debug\Aplicacion.ConsultaPaciente.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\obj\Debug\Aplicacion.ConsultaPaciente.csprojResolveAssemblyReference.cache
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\obj\Debug\Aplicacion.ConsultaPaciente.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConsultaPaciente\obj\Debug\Aplicacion.ConsultaPaciente.pdb

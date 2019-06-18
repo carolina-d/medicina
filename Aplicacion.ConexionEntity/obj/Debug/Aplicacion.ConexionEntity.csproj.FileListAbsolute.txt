@@ -1,0 +1,10 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.dll.config
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\obj\Debug\Aplicacion.ConexionEntity.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\obj\Debug\Aplicacion.ConexionEntity.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.dll.config
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\bin\Debug\Aplicacion.ConexionEntity.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\obj\Debug\Aplicacion.ConexionEntity.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.ConexionEntity\obj\Debug\Aplicacion.ConexionEntity.pdb

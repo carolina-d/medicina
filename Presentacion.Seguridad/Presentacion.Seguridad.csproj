@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion.Seguridad</RootNamespace>
+    <AssemblyName>Presentacion.Seguridad</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Constante.cs" />
+    <Compile Include="Imagenes\Recursos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recursos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SeguridadAsembly.cs" />
+    <Compile Include="_00200_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00200_Usuario.Designer.cs">
+      <DependentUpon>_00200_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00201_Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00201_Perfil.Designer.cs">
+      <DependentUpon>_00201_Perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00202_ABM_Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00202_ABM_Perfil.Designer.cs">
+      <DependentUpon>_00202_ABM_Perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00203_AsignarUsuarioPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00203_AsignarUsuarioPerfil.Designer.cs">
+      <DependentUpon>_00203_AsignarUsuarioPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00204_Formulario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00204_Formulario.Designer.cs">
+      <DependentUpon>_00204_Formulario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00205_AsignarFormularioPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00205_AsignarFormularioPerfil.Designer.cs">
+      <DependentUpon>_00205_AsignarFormularioPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00206_ConfigurarParametrosSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00206_ConfigurarParametrosSeguridad.Designer.cs">
+      <DependentUpon>_00206_ConfigurarParametrosSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00207_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00207_Login.Designer.cs">
+      <DependentUpon>_00207_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00208_CambioPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00208_CambioPassword.Designer.cs">
+      <DependentUpon>_00208_CambioPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00209_ConfiguracionServidorBaseDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00209_ConfiguracionServidorBaseDatos.Designer.cs">
+      <DependentUpon>_00209_ConfiguracionServidorBaseDatos.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Imagenes\Recursos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recursos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00200_Usuario.resx">
+      <DependentUpon>_00200_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00201_Perfil.resx">
+      <DependentUpon>_00201_Perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00202_ABM_Perfil.resx">
+      <DependentUpon>_00202_ABM_Perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00203_AsignarUsuarioPerfil.resx">
+      <DependentUpon>_00203_AsignarUsuarioPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00204_Formulario.resx">
+      <DependentUpon>_00204_Formulario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00205_AsignarFormularioPerfil.resx">
+      <DependentUpon>_00205_AsignarFormularioPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00206_ConfigurarParametrosSeguridad.resx">
+      <DependentUpon>_00206_ConfigurarParametrosSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00207_Login.resx">
+      <DependentUpon>_00207_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00208_CambioPassword.resx">
+      <DependentUpon>_00208_CambioPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00209_ConfiguracionServidorBaseDatos.resx">
+      <DependentUpon>_00209_ConfiguracionServidorBaseDatos.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.ConexionEntity\Aplicacion.ConexionEntity.csproj">
+      <Project>{0c4d98b9-6a86-4482-a117-a850f471eab8}</Project>
+      <Name>Aplicacion.ConexionEntity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aplicacion.Seguridad\Aplicacion.Seguridad.csproj">
+      <Project>{ee2f6bd5-d811-4c07-a43d-3921c288e63c}</Project>
+      <Name>Aplicacion.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.CorreoElectronico\Dominio.CorreoElectronico.csproj">
+      <Project>{c51998a1-1036-4554-9b6a-9b55a343546c}</Project>
+      <Name>Dominio.CorreoElectronico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.RecursosHumanos\Dominio.RecursosHumanos.csproj">
+      <Project>{49898b2c-47a7-4a7e-9451-cac4d23d49c2}</Project>
+      <Name>Dominio.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Seguridad\Dominio.Seguridad.csproj">
+      <Project>{8e35116f-8dce-47d4-9de2-a0f95079fae4}</Project>
+      <Name>Dominio.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj">
+      <Project>{b25fba78-f547-413b-9815-eec3406fc505}</Project>
+      <Name>Presentacion.PlantillaFormulario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.RecursosHumanos\Presentacion.RecursosHumanos.csproj">
+      <Project>{07ba2837-e131-4ff3-a2a5-a6042b467cf5}</Project>
+      <Name>Presentacion.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicio.Seguridad\Servicio.Seguridad.csproj">
+      <Project>{7315605a-b4c1-4d01-bee2-38b3e7db07b0}</Project>
+      <Name>Servicio.Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\FondoFormularioNegro.jpg" />
+    <Content Include="Imagenes\login.gif" />
+    <Content Include="Imagenes\LoginFondo.jpg" />
+    <Content Include="Imagenes\Ojo.png" />
+    <Content Include="Librerias\StructureMap.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

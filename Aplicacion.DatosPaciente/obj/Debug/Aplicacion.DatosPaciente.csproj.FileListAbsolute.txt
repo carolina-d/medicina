@@ -1,0 +1,8 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\bin\Debug\Aplicacion.DatosPaciente.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\bin\Debug\Aplicacion.DatosPaciente.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\obj\Debug\Aplicacion.DatosPaciente.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\obj\Debug\Aplicacion.DatosPaciente.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\bin\Debug\Aplicacion.DatosPaciente.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\bin\Debug\Aplicacion.DatosPaciente.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\obj\Debug\Aplicacion.DatosPaciente.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.DatosPaciente\obj\Debug\Aplicacion.DatosPaciente.pdb

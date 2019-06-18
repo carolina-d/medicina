@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7162E16-667F-4E39-9F67-7A9C76734A32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>X_Medicina</RootNamespace>
+    <AssemblyName>X-Medicina</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructureMap\StructureMapDependencyResolver.cs" />
+    <Compile Include="_00001_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00001_Principal.Designer.cs">
+      <DependentUpon>_00001_Principal.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="_00001_Principal.resx">
+      <DependentUpon>_00001_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.IoC.StructureMap\Aplicacion.IoC.StructureMap.csproj">
+      <Project>{355ac439-f807-47c1-85c7-b8aa984edcf7}</Project>
+      <Name>Aplicacion.IoC.StructureMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aplicacion.Seguridad\Aplicacion.Seguridad.csproj">
+      <Project>{ee2f6bd5-d811-4c07-a43d-3921c288e63c}</Project>
+      <Name>Aplicacion.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Comun\Dominio.Comun.csproj">
+      <Project>{3a42d9a5-d875-4ce7-9267-6160a371aabe}</Project>
+      <Name>Dominio.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.DatosPaciente\Dominio.DatosPaciente.csproj">
+      <Project>{7504c5d4-1643-45cb-b1e5-5980faf67bea}</Project>
+      <Name>Dominio.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.RecursosHumanos\Dominio.RecursosHumanos.csproj">
+      <Project>{49898b2c-47a7-4a7e-9451-cac4d23d49c2}</Project>
+      <Name>Dominio.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Seguridad\Dominio.Seguridad.csproj">
+      <Project>{8e35116f-8dce-47d4-9de2-a0f95079fae4}</Project>
+      <Name>Dominio.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.Base\Infraestructura.Base.csproj">
+      <Project>{be1e7c08-7dbc-4a15-b0b5-56efc496aa0b}</Project>
+      <Name>Infraestructura.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.Comun\Infraestructura.Comun.csproj">
+      <Project>{e9981d43-0ebc-4593-88c1-fb3e0289f804}</Project>
+      <Name>Infraestructura.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.DatosPaciente\Infraestructura.DatosPaciente.csproj">
+      <Project>{ae0c9443-1298-43b5-bcdd-44e93c9489f3}</Project>
+      <Name>Infraestructura.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.RecursosHumanos\Infraestructura.RecursosHumanos.csproj">
+      <Project>{82b31d3b-8363-4d53-8ae0-a0280c895d19}</Project>
+      <Name>Infraestructura.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.Seguridad\Infraestructura.Seguridad.csproj">
+      <Project>{8c7f3830-9321-4b69-add1-5814eb42b8bd}</Project>
+      <Name>Infraestructura.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.Comun\Presentacion.Comun.csproj">
+      <Project>{57d876e6-4a53-4a46-b6bc-a243af6e7ce6}</Project>
+      <Name>Presentacion.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.ConsultaPaciente\Presentacion.ConsultaPaciente.csproj">
+      <Project>{33c9723b-2982-44d5-b48c-2964962a125d}</Project>
+      <Name>Presentacion.ConsultaPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.CorreoElectronico\Presentacion.CorreoElectronico.csproj">
+      <Project>{e07981df-e048-4f0e-b79c-701d5df5eb5d}</Project>
+      <Name>Presentacion.CorreoElectronico</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.DatosPaciente\Presentacion.DatosPaciente.csproj">
+      <Project>{6bcfa193-7a06-465a-8ee4-2302cc994c4e}</Project>
+      <Name>Presentacion.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj">
+      <Project>{b25fba78-f547-413b-9815-eec3406fc505}</Project>
+      <Name>Presentacion.PlantillaFormulario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.RecursosHumanos\Presentacion.RecursosHumanos.csproj">
+      <Project>{07ba2837-e131-4ff3-a2a5-a6042b467cf5}</Project>
+      <Name>Presentacion.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.Seguridad\Presentacion.Seguridad.csproj">
+      <Project>{3b1d35b6-db4b-4798-af42-4cfb5df05682}</Project>
+      <Name>Presentacion.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.Turno\Presentacion.Turno.csproj">
+      <Project>{c11417ba-7cd0-42e1-905f-74a6dcdd49f2}</Project>
+      <Name>Presentacion.Turno</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicio.Seguridad\Servicio.Seguridad.csproj">
+      <Project>{7315605a-b4c1-4d01-bee2-38b3e7db07b0}</Project>
+      <Name>Servicio.Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\FondoSistemaMedico.jpg" />
+    <Content Include="Imagenes\MundoEstetocopio.jpg" />
+    <Content Include="Librerias\StructureMap.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

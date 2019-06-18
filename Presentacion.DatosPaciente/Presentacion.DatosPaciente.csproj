@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BCFA193-7A06-465A-8EE4-2302CC994C4E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion.DatosPaciente</RootNamespace>
+    <AssemblyName>Presentacion.DatosPaciente</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.7.0.10, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libreria\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controles\ctrolTestigoPaciente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controles\ctrolTestigoPaciente.Designer.cs">
+      <DependentUpon>ctrolTestigoPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatosPacienteAsembly.cs" />
+    <Compile Include="Imagenes\RecursosPaciente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RecursosPaciente.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Antecedente\_00519_Antecedente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Antecedente\_00519_Antecedente.Designer.cs">
+      <DependentUpon>_00519_Antecedente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Antecedente\_00520_ABM_Antecedente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Antecedente\_00520_ABM_Antecedente.Designer.cs">
+      <DependentUpon>_00520_ABM_Antecedente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Habito\_00517_Habito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Habito\_00517_Habito.Designer.cs">
+      <DependentUpon>_00517_Habito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Habito\_00518_ABM_Habito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Habito\_00518_ABM_Habito.Designer.cs">
+      <DependentUpon>_00518_ABM_Habito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00510_GrupoSanguineo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00510_GrupoSanguineo.Designer.cs">
+      <DependentUpon>_00510_GrupoSanguineo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00508_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00508_Paciente.Designer.cs">
+      <DependentUpon>_00508_Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00509_ABM_Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00509_ABM_Paciente.Designer.cs">
+      <DependentUpon>_00509_ABM_Paciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00511_ABM_GrupoSanguineo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00511_ABM_GrupoSanguineo.Designer.cs">
+      <DependentUpon>_00511_ABM_GrupoSanguineo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00512_AgregarVacunaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00512_AgregarVacunaPaciente.Designer.cs">
+      <DependentUpon>_00512_AgregarVacunaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Pariente\_00522_Pariente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Pariente\_00522_Pariente.Designer.cs">
+      <DependentUpon>_00522_Pariente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Pariente\_00523_ABM_Pariente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Pariente\_00523_ABM_Pariente.Designer.cs">
+      <DependentUpon>_00523_ABM_Pariente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00513_Patologia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00513_Patologia.Designer.cs">
+      <DependentUpon>_00513_Patologia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00514_ABM_Patologia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00514_ABM_Patologia.Designer.cs">
+      <DependentUpon>_00514_ABM_Patologia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00515_PatologiaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00515_PatologiaPaciente.Designer.cs">
+      <DependentUpon>_00515_PatologiaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00516_AgregarPatologiaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Patologia\_00516_AgregarPatologiaPaciente.Designer.cs">
+      <DependentUpon>_00516_AgregarPatologiaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00500_Vacunas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00500_Vacunas.Designer.cs">
+      <DependentUpon>_00500_Vacunas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00501_ABM_Vacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00501_ABM_Vacuna.Designer.cs">
+      <DependentUpon>_00501_ABM_Vacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00502_PlanVacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Paciente\_00502_PlanVacunacion.Designer.cs">
+      <DependentUpon>_00502_PlanVacunacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00504_CalendarioVacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00504_CalendarioVacunacion.Designer.cs">
+      <DependentUpon>_00504_CalendarioVacunacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00505_ABM_CalendarioVacunacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00505_ABM_CalendarioVacunacion.Designer.cs">
+      <DependentUpon>_00505_ABM_CalendarioVacunacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00506_DosisVacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00506_DosisVacuna.Designer.cs">
+      <DependentUpon>_00506_DosisVacuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00507_ABM_DosisVacuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Vacunacion\_00507_ABM_DosisVacuna.Designer.cs">
+      <DependentUpon>_00507_ABM_DosisVacuna.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controles\ctrolTestigoPaciente.resx">
+      <DependentUpon>ctrolTestigoPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Imagenes\RecursosPaciente.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RecursosPaciente.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Antecedente\_00520_ABM_Antecedente.resx">
+      <DependentUpon>_00520_ABM_Antecedente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Habito\_00518_ABM_Habito.resx">
+      <DependentUpon>_00518_ABM_Habito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00502_PlanVacunacion.resx">
+      <DependentUpon>_00502_PlanVacunacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00508_Paciente.resx">
+      <DependentUpon>_00508_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00509_ABM_Paciente.resx">
+      <DependentUpon>_00509_ABM_Paciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00510_GrupoSanguineo.resx">
+      <DependentUpon>_00510_GrupoSanguineo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00511_ABM_GrupoSanguineo.resx">
+      <DependentUpon>_00511_ABM_GrupoSanguineo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Paciente\_00512_AgregarVacunaPaciente.resx">
+      <DependentUpon>_00512_AgregarVacunaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Patologia\_00513_Patologia.resx">
+      <DependentUpon>_00513_Patologia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Patologia\_00514_ABM_Patologia.resx">
+      <DependentUpon>_00514_ABM_Patologia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Patologia\_00515_PatologiaPaciente.resx">
+      <DependentUpon>_00515_PatologiaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Patologia\_00516_AgregarPatologiaPaciente.resx">
+      <DependentUpon>_00516_AgregarPatologiaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00500_Vacunas.resx">
+      <DependentUpon>_00500_Vacunas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00501_ABM_Vacuna.resx">
+      <DependentUpon>_00501_ABM_Vacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00504_CalendarioVacunacion.resx">
+      <DependentUpon>_00504_CalendarioVacunacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00505_ABM_CalendarioVacunacion.resx">
+      <DependentUpon>_00505_ABM_CalendarioVacunacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00506_DosisVacuna.resx">
+      <DependentUpon>_00506_DosisVacuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Vacunacion\_00507_ABM_DosisVacuna.resx">
+      <DependentUpon>_00507_ABM_DosisVacuna.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\Paciente.png" />
+    <Content Include="Libreria\StructureMap.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.DatosPaciente\Aplicacion.DatosPaciente.csproj">
+      <Project>{3787f286-d449-4244-99f4-acfefbfdb648}</Project>
+      <Name>Aplicacion.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Comun\Dominio.Comun.csproj">
+      <Project>{3a42d9a5-d875-4ce7-9267-6160a371aabe}</Project>
+      <Name>Dominio.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.DatosPaciente\Dominio.DatosPaciente.csproj">
+      <Project>{7504c5d4-1643-45cb-b1e5-5980faf67bea}</Project>
+      <Name>Dominio.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Seguridad\Dominio.Seguridad.csproj">
+      <Project>{8e35116f-8dce-47d4-9de2-a0f95079fae4}</Project>
+      <Name>Dominio.Seguridad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.Comun\Presentacion.Comun.csproj">
+      <Project>{57d876e6-4a53-4a46-b6bc-a243af6e7ce6}</Project>
+      <Name>Presentacion.Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj">
+      <Project>{b25fba78-f547-413b-9815-eec3406fc505}</Project>
+      <Name>Presentacion.PlantillaFormulario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicio.DatosPaciente\Servicio.DatosPaciente.csproj">
+      <Project>{12bec892-e840-4e7a-bc1e-bebf9990b238}</Project>
+      <Name>Servicio.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicio.Seguridad\Servicio.Seguridad.csproj">
+      <Project>{7315605a-b4c1-4d01-bee2-38b3e7db07b0}</Project>
+      <Name>Servicio.Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

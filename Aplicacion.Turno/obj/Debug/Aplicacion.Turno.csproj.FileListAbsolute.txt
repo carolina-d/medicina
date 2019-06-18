@@ -1,0 +1,8 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\bin\Debug\Aplicacion.Turno.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\bin\Debug\Aplicacion.Turno.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\obj\Debug\Aplicacion.Turno.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\obj\Debug\Aplicacion.Turno.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\bin\Debug\Aplicacion.Turno.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\bin\Debug\Aplicacion.Turno.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\obj\Debug\Aplicacion.Turno.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Aplicacion.Turno\obj\Debug\Aplicacion.Turno.pdb

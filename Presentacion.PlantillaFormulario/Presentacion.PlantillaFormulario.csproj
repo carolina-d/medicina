@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B25FBA78-F547-413B-9815-EEC3406FC505}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion.PlantillaFormulario</RootNamespace>
+    <AssemblyName>Presentacion.PlantillaFormulario</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Constantes.cs" />
+    <Compile Include="Clases\Imagen.cs" />
+    <Compile Include="Clases\ImagenesFormulario.cs" />
+    <Compile Include="Clases\Mensaje.cs" />
+    <Compile Include="Clases\Recursos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recursos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\TipoOperacion.cs" />
+    <Compile Include="Clases\ValidacionDatos.cs" />
+    <Compile Include="FormularioABM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioABM.Designer.cs">
+      <DependentUpon>FormularioABM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioBase.Designer.cs">
+      <DependentUpon>FormularioBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioConsulta.Designer.cs">
+      <DependentUpon>FormularioConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Clases\Recursos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Recursos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioABM.resx">
+      <DependentUpon>FormularioABM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioBase.resx">
+      <DependentUpon>FormularioBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioConsulta.resx">
+      <DependentUpon>FormularioConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Imagenes\Actualizar.png" />
+    <Content Include="Imagenes\Bloquear.png" />
+    <Content Include="Imagenes\Borrar.png" />
+    <Content Include="Imagenes\Buscar.png" />
+    <Content Include="Imagenes\BuscarChico.png" />
+    <Content Include="Imagenes\CargoEmpleado.png" />
+    <Content Include="Imagenes\Desbloquear.png" />
+    <Content Include="Imagenes\DeselecionarTodo.png" />
+    <Content Include="Imagenes\Empleado.png" />
+    <Content Include="Imagenes\Empresa.png" />
+    <None Include="Imagenes\FondoFormularioNegro.jpg" />
+    <None Include="Imagenes\FondoFormularioNegro2.jpg" />
+    <Content Include="Imagenes\Grabar.png" />
+    <Content Include="Imagenes\Impresora.png" />
+    <Content Include="Imagenes\Informacion1.ico" />
+    <Content Include="Imagenes\Informacion2.ico" />
+    <Content Include="Imagenes\Informacion3.ico" />
+    <Content Include="Imagenes\Limpiar.png" />
+    <Content Include="Imagenes\Modificar.png" />
+    <Content Include="Imagenes\Nuevo.png" />
+    <Content Include="Imagenes\ResetPassword.png" />
+    <Content Include="Imagenes\Salir.png" />
+    <Content Include="Imagenes\SeleccionarTodo.png" />
+    <Content Include="Imagenes\Users.png" />
+    <Content Include="Imagenes\Usuario.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

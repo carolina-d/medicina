@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion.Turno</RootNamespace>
+    <AssemblyName>Presentacion.Turno</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsignarTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AsignarTurno.Designer.cs">
+      <DependentUpon>AsignarTurno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NuevoTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NuevoTurno.Designer.cs">
+      <DependentUpon>NuevoTurno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Librerias\StructureMap.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.Turno\Aplicacion.Turno.csproj">
+      <Project>{625f26c7-2ec3-4ea4-9627-a4ce455fde74}</Project>
+      <Name>Aplicacion.Turno</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.DatosPaciente\Dominio.DatosPaciente.csproj">
+      <Project>{7504c5d4-1643-45cb-b1e5-5980faf67bea}</Project>
+      <Name>Dominio.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.RecursosHumanos\Dominio.RecursosHumanos.csproj">
+      <Project>{49898b2c-47a7-4a7e-9451-cac4d23d49c2}</Project>
+      <Name>Dominio.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Turno\Dominio.Turnos.csproj">
+      <Project>{9a7cf7ab-4fce-4e57-a20e-c271ea8a7f09}</Project>
+      <Name>Dominio.Turnos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.Base\Infraestructura.Base.csproj">
+      <Project>{be1e7c08-7dbc-4a15-b0b5-56efc496aa0b}</Project>
+      <Name>Infraestructura.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.DatosPaciente\Infraestructura.DatosPaciente.csproj">
+      <Project>{ae0c9443-1298-43b5-bcdd-44e93c9489f3}</Project>
+      <Name>Infraestructura.DatosPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.RecursosHumanos\Infraestructura.RecursosHumanos.csproj">
+      <Project>{82b31d3b-8363-4d53-8ae0-a0280c895d19}</Project>
+      <Name>Infraestructura.RecursosHumanos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.Turno\Infraestructura.Turnos.csproj">
+      <Project>{64c88e1f-fa93-465f-b28e-be33d50ae7a2}</Project>
+      <Name>Infraestructura.Turnos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj">
+      <Project>{b25fba78-f547-413b-9815-eec3406fc505}</Project>
+      <Name>Presentacion.PlantillaFormulario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Servicio.Seguridad\Servicio.Seguridad.csproj">
+      <Project>{7315605a-b4c1-4d01-bee2-38b3e7db07b0}</Project>
+      <Name>Servicio.Seguridad</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AsignarTurno.resx">
+      <DependentUpon>AsignarTurno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NuevoTurno.resx">
+      <DependentUpon>NuevoTurno.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

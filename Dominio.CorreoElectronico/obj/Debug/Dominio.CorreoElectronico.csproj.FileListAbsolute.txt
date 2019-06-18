@@ -1,0 +1,14 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.CorreoElectronico.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.CorreoElectronico.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.Base.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.Base.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.CorreoElectronico.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.CorreoElectronico.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.Base.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\bin\Debug\Dominio.Base.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.csprojResolveAssemblyReference.cache
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.CorreoElectronico\obj\Debug\Dominio.CorreoElectronico.pdb

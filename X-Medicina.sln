@@ -1,0 +1,537 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentacion", "1 - Presentacion", "{00AD1040-87FC-403C-918B-6795E619A3CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacion", "2 - Aplicacion", "{A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Servicio", "3 - Servicio", "{E49E124C-9D31-4911-BD9B-1A05E2319A04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Dominio", "4 - Dominio", "{218DFB83-408B-4E8B-9EC1-E0AF75B0AE00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infraestructura", "5 - Infraestructura", "{0CF9F08C-68B0-489B-97E5-D291A461FF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Base", "Dominio.Base\Dominio.Base.csproj", "{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Base", "Infraestructura.Base\Infraestructura.Base.csproj", "{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dominio.Base", "4.1 - Dominio.Base", "{A4667B4F-125C-46B3-907E-40D9718887DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Infraestructura.Base", "5.1 - Infraestructura.Base", "{6DB23509-1F2A-44A6-A2E0-FD0EE96C1F19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Dominio.Modulos", "4.2 - Dominio.Modulos", "{DDFBBC01-6499-47C1-A023-42413D15F996}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - Infraestrcutura.Modulos", "5.2 - Infraestrcutura.Modulos", "{67B40890-4F40-4B2A-B9AC-61D62B36B4BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1 - RecursosHumanos", "4.2.1 - RecursosHumanos", "{6EBCBB66-0C43-48E7-824A-B28B40DFB18B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.2 - Seguridad", "4.2.2 - Seguridad", "{CAE7D8A6-35BB-47A1-B394-5D2905E8FBBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.RecursosHumanos", "Dominio.RecursosHumanos\Dominio.RecursosHumanos.csproj", "{49898B2C-47A7-4A7E-9451-CAC4D23D49C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Seguridad", "Dominio.Seguridad\Dominio.Seguridad.csproj", "{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.1 - Infraestructura.RecursosHumanos", "5.2.1 - Infraestructura.RecursosHumanos", "{3C53FFC7-9159-4413-9533-E14E63324DA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.2 - Infraestructura.Seguridad", "5.2.2 - Infraestructura.Seguridad", "{7CC8F31E-145E-4322-94BD-C6F1D7843855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.RecursosHumanos", "Infraestructura.RecursosHumanos\Infraestructura.RecursosHumanos.csproj", "{82B31D3B-8363-4D53-8AE0-A0280C895D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Seguridad", "Infraestructura.Seguridad\Infraestructura.Seguridad.csproj", "{8C7F3830-9321-4B69-ADD1-5814EB42B8BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.1 - Plantilla", "1.2.1 - Plantilla", "{CEAC4538-1EB2-44AB-BC6E-1D0E76626FF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - WindowsForms", "1.2 - WindowsForms", "{E3FF30E8-3233-4F07-9D52-1CDD61C37B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X-Medicina", "X-Medicina\X-Medicina.csproj", "{E7162E16-667F-4E39-9F67-7A9C76734A32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.1 - IoC", "2.1 - IoC", "{1D0033AC-9C65-4B56-9C45-E00CDFF4FC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.IoC.StructureMap", "Aplicacion.IoC.StructureMap\Aplicacion.IoC.StructureMap.csproj", "{355AC439-F807-47C1-85C7-B8AA984EDCF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.PlantillaFormulario", "Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj", "{B25FBA78-F547-413B-9815-EEC3406FC505}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.2 - Modulos", "1.2.2 - Modulos", "{359B6630-E4DB-4A05-A365-50D617E6778B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.1 - RecursosHumanos", "1.2.1 - RecursosHumanos", "{24169AE9-249C-48FC-8CC1-7CC58ADE5370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.RecursosHumanos", "Presentacion.RecursosHumanos\Presentacion.RecursosHumanos.csproj", "{07BA2837-E131-4FF3-A2A5-A6042B467CF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.3 - Aplicacion.RecursosHumanos", "2.3 - Aplicacion.RecursosHumanos", "{DF328A44-6E5B-4500-B5AB-DA793340EC9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.RecursosHumanos", "Aplicacion.RecursosHumanos\Aplicacion.RecursosHumanos.csproj", "{52BF3E28-2E17-4477-99B0-2704A4D47253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.2 - Aplicacion.Excepcion", "2.2 - Aplicacion.Excepcion", "{24001F4F-805B-477A-8A6A-106E4B609AA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Excepcion", "Aplicacion.Excepcion\Aplicacion.Excepcion.csproj", "{D8849ADE-BA3C-437E-B358-7E67E262FFD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.3 - Comun", "4.2.3 - Comun", "{6EA632BB-F6F6-4662-BD9E-66D261737E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Comun", "Dominio.Comun\Dominio.Comun.csproj", "{3A42D9A5-D875-4CE7-9267-6160A371AABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.3 - Infraestructura.Comun", "5.2.3 - Infraestructura.Comun", "{76A78FFB-3E75-4E00-A672-A6DB578058A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Comun", "Infraestructura.Comun\Infraestructura.Comun.csproj", "{E9981D43-0EBC-4593-88C1-FB3E0289F804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.2 - Seguridad", "1.2.2 - Seguridad", "{6459EE8B-6FD0-4DBF-8EF4-ABF8243C90D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.3 - Comun", "1.2.3 - Comun", "{C61E3B0B-2AF2-4DB6-8A1F-D392DB87514A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.Comun", "Presentacion.Comun\Presentacion.Comun.csproj", "{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.Seguridad", "Presentacion.Seguridad\Presentacion.Seguridad.csproj", "{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3 - Infraestructura.BaseDatos", "5.3 - Infraestructura.BaseDatos", "{CFB9DE22-0A3B-4662-BF33-D3ED313518A1}"
+	ProjectSection(SolutionItems) = preProject
+		BaseDatos\ScriptBaseDatosMedicina.sql = BaseDatos\ScriptBaseDatosMedicina.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.4 - Infraestructura.CorreoElectronico", "5.4 - Infraestructura.CorreoElectronico", "{9993BE33-F84D-44AE-ACFC-DE96D21ECC88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.CorreoElectronico", "Infraestructura.ServidorCorreo\Infraestructura.CorreoElectronico.csproj", "{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - CorreoElectronico", "4.3 - CorreoElectronico", "{2F852B1E-7890-4CC9-8918-434C18869C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.CorreoElectronico", "Dominio.CorreoElectronico\Dominio.CorreoElectronico.csproj", "{C51998A1-1036-4554-9B6A-9B55A343546C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Servicio.Seguridad", "3.1 - Servicio.Seguridad", "{4F4BDA48-768E-42C0-B0F4-C5D6172960F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio.Seguridad", "Servicio.Seguridad\Servicio.Seguridad.csproj", "{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.4 - CorreoElectronico", "1.2.4 - CorreoElectronico", "{4D0C633E-2730-4BBA-B320-82A209A6963F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.CorreoElectronico", "Presentacion.CorreoElectronico\Presentacion.CorreoElectronico.csproj", "{E07981DF-E048-4F0E-B79C-701D5DF5EB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.4 - Aplicacion.Seguridad", "2.4 - Aplicacion.Seguridad", "{A2AA7F14-2DFB-488E-92DF-DF656F37377A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Seguridad", "Aplicacion.Seguridad\Aplicacion.Seguridad.csproj", "{EE2F6BD5-D811-4C07-A43D-3921C288E63C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.4 - DatosPaciente", "4.2.4 - DatosPaciente", "{2E105989-908A-4D22-85C0-B88C2E4CE7F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.DatosPaciente", "Dominio.DatosPaciente\Dominio.DatosPaciente.csproj", "{7504C5D4-1643-45CB-B1E5-5980FAF67BEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.4 - Infraestructura.DatosPaciente", "5.2.4 - Infraestructura.DatosPaciente", "{9AE8B6D7-52FF-433A-9F5F-10B1C54E55F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.DatosPaciente", "Infraestructura.DatosPaciente\Infraestructura.DatosPaciente.csproj", "{AE0C9443-1298-43B5-BCDD-44E93C9489F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 - Conexion", "2.0 - Conexion", "{0BDB06E6-5F06-4EF8-9860-283CBDC09842}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.ConexionEntity", "Aplicacion.ConexionEntity\Aplicacion.ConexionEntity.csproj", "{0C4D98B9-6A86-4482-A117-A850F471EAB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.5 - DatosPaciente", "1.2.5 - DatosPaciente", "{6FD2DDA1-266B-4FE3-95FC-8E4000C123AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.DatosPaciente", "Presentacion.DatosPaciente\Presentacion.DatosPaciente.csproj", "{6BCFA193-7A06-465A-8EE4-2302CC994C4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.5 - Aplicacion.DatosPaciente", "2.5 - Aplicacion.DatosPaciente", "{9458714E-58B3-4B15-9142-C4140F871C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.DatosPaciente", "Aplicacion.DatosPaciente\Aplicacion.DatosPaciente.csproj", "{3787F286-D449-4244-99F4-ACFEFBFDB648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - Servicio.DatosPaciente", "3.2 - Servicio.DatosPaciente", "{E0D051AF-6A83-44E6-A659-16A6713AA973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio.DatosPaciente", "Servicio.DatosPaciente\Servicio.DatosPaciente.csproj", "{12BEC892-E840-4E7A-BC1E-BEBF9990B238}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.5 - ConsultaPaciente", "4.2.5 - ConsultaPaciente", "{F9BBF289-3927-4948-A532-9CE95D251EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.ConsultaPaciente", "Dominio.HistoriaClinica\Dominio.ConsultaPaciente.csproj", "{45861718-B290-4829-82F6-2760A3C3F59B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.5 - Infraestructura.ConsultaPaciente", "5.2.5 - Infraestructura.ConsultaPaciente", "{54229944-8FF4-45A2-8A61-496EC9E10929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.ConsultaPaciente", "Infraestructura.HistoriaClinica\Infraestructura.ConsultaPaciente.csproj", "{504FB840-6C21-4DAA-B271-B266653F27FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.6 - Turnos", "4.2.6 - Turnos", "{2A282F45-C4B4-4743-8960-40DB2020C8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Turnos", "Dominio.Turno\Dominio.Turnos.csproj", "{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2.6 - Infraestructura.Turnos", "5.2.6 - Infraestructura.Turnos", "{A79C6371-2D14-4BAC-A49A-3BE1CBBE7F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Turnos", "Infraestructura.Turno\Infraestructura.Turnos.csproj", "{64C88E1F-FA93-465F-B28E-BE33D50AE7A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.6 - ConsultaPaciente", "1.2.6 - ConsultaPaciente", "{E534D37B-B507-4296-BE07-F5352C1D5E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.ConsultaPaciente", "Presentacion.ConsultaPaciente\Presentacion.ConsultaPaciente.csproj", "{33C9723B-2982-44D5-B48C-2964962A125D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.6 - Aplicacion.ConsultaPaciente", "2.6 - Aplicacion.ConsultaPaciente", "{635E792C-210E-4756-B202-4B5EBC9FE45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.ConsultaPaciente", "Aplicacion.ConsultaPaciente\Aplicacion.ConsultaPaciente.csproj", "{0E4029FE-0FDD-4713-8E19-BFF66977833F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2.7 - Turno", "1.2.7 - Turno", "{277A6877-112E-4022-A6BC-9F362827594E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentacion.Turno", "Presentacion.Turno\Presentacion.Turno.csproj", "{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.7 - Aplicacion.Turno", "2.7 - Aplicacion.Turno", "{B48DB46A-178B-4F59-A377-CC33C44329F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplicacion.Turno", "Aplicacion.Turno\Aplicacion.Turno.csproj", "{625F26C7-2EC3-4EA4-9627-A4CE455FDE74}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 36
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cristiandirisio.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Aplicacion.ConexionEntity\\Aplicacion.ConexionEntity.csproj
+		SccProjectTopLevelParentUniqueName1 = X-Medicina.sln
+		SccProjectName1 = Aplicacion.ConexionEntity
+		SccLocalPath1 = Aplicacion.ConexionEntity
+		SccProjectUniqueName2 = Aplicacion.DatosPaciente\\Aplicacion.DatosPaciente.csproj
+		SccProjectTopLevelParentUniqueName2 = X-Medicina.sln
+		SccProjectName2 = Aplicacion.DatosPaciente
+		SccLocalPath2 = Aplicacion.DatosPaciente
+		SccProjectUniqueName3 = Aplicacion.Excepcion\\Aplicacion.Excepcion.csproj
+		SccProjectTopLevelParentUniqueName3 = X-Medicina.sln
+		SccProjectName3 = Aplicacion.Excepcion
+		SccLocalPath3 = Aplicacion.Excepcion
+		SccProjectUniqueName4 = Aplicacion.IoC.StructureMap\\Aplicacion.IoC.StructureMap.csproj
+		SccProjectTopLevelParentUniqueName4 = X-Medicina.sln
+		SccProjectName4 = Aplicacion.IoC.StructureMap
+		SccLocalPath4 = Aplicacion.IoC.StructureMap
+		SccProjectUniqueName5 = Aplicacion.RecursosHumanos\\Aplicacion.RecursosHumanos.csproj
+		SccProjectTopLevelParentUniqueName5 = X-Medicina.sln
+		SccProjectName5 = Aplicacion.RecursosHumanos
+		SccLocalPath5 = Aplicacion.RecursosHumanos
+		SccProjectUniqueName6 = Aplicacion.Seguridad\\Aplicacion.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName6 = X-Medicina.sln
+		SccProjectName6 = Aplicacion.Seguridad
+		SccLocalPath6 = Aplicacion.Seguridad
+		SccProjectUniqueName7 = Dominio.Base\\Dominio.Base.csproj
+		SccProjectTopLevelParentUniqueName7 = X-Medicina.sln
+		SccProjectName7 = Dominio.Base
+		SccLocalPath7 = Dominio.Base
+		SccProjectUniqueName8 = Dominio.Comun\\Dominio.Comun.csproj
+		SccProjectTopLevelParentUniqueName8 = X-Medicina.sln
+		SccProjectName8 = Dominio.Comun
+		SccLocalPath8 = Dominio.Comun
+		SccProjectUniqueName9 = Dominio.CorreoElectronico\\Dominio.CorreoElectronico.csproj
+		SccProjectTopLevelParentUniqueName9 = X-Medicina.sln
+		SccProjectName9 = Dominio.CorreoElectronico
+		SccLocalPath9 = Dominio.CorreoElectronico
+		SccProjectUniqueName10 = Dominio.DatosPaciente\\Dominio.DatosPaciente.csproj
+		SccProjectTopLevelParentUniqueName10 = X-Medicina.sln
+		SccProjectName10 = Dominio.DatosPaciente
+		SccLocalPath10 = Dominio.DatosPaciente
+		SccProjectUniqueName11 = Dominio.HistoriaClinica\\Dominio.ConsultaPaciente.csproj
+		SccProjectTopLevelParentUniqueName11 = X-Medicina.sln
+		SccProjectName11 = Dominio.HistoriaClinica
+		SccLocalPath11 = Dominio.HistoriaClinica
+		SccProjectUniqueName12 = Dominio.RecursosHumanos\\Dominio.RecursosHumanos.csproj
+		SccProjectTopLevelParentUniqueName12 = X-Medicina.sln
+		SccProjectName12 = Dominio.RecursosHumanos
+		SccLocalPath12 = Dominio.RecursosHumanos
+		SccProjectUniqueName13 = Dominio.Seguridad\\Dominio.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName13 = X-Medicina.sln
+		SccProjectName13 = Dominio.Seguridad
+		SccLocalPath13 = Dominio.Seguridad
+		SccProjectUniqueName14 = Dominio.Turno\\Dominio.Turnos.csproj
+		SccProjectTopLevelParentUniqueName14 = X-Medicina.sln
+		SccProjectName14 = Dominio.Turno
+		SccLocalPath14 = Dominio.Turno
+		SccProjectUniqueName15 = Infraestructura.Base\\Infraestructura.Base.csproj
+		SccProjectTopLevelParentUniqueName15 = X-Medicina.sln
+		SccProjectName15 = Infraestructura.Base
+		SccLocalPath15 = Infraestructura.Base
+		SccProjectUniqueName16 = Infraestructura.Comun\\Infraestructura.Comun.csproj
+		SccProjectTopLevelParentUniqueName16 = X-Medicina.sln
+		SccProjectName16 = Infraestructura.Comun
+		SccLocalPath16 = Infraestructura.Comun
+		SccProjectUniqueName17 = Infraestructura.DatosPaciente\\Infraestructura.DatosPaciente.csproj
+		SccProjectTopLevelParentUniqueName17 = X-Medicina.sln
+		SccProjectName17 = Infraestructura.DatosPaciente
+		SccLocalPath17 = Infraestructura.DatosPaciente
+		SccProjectUniqueName18 = Infraestructura.HistoriaClinica\\Infraestructura.ConsultaPaciente.csproj
+		SccProjectTopLevelParentUniqueName18 = X-Medicina.sln
+		SccProjectName18 = Infraestructura.HistoriaClinica
+		SccLocalPath18 = Infraestructura.HistoriaClinica
+		SccProjectUniqueName19 = Infraestructura.RecursosHumanos\\Infraestructura.RecursosHumanos.csproj
+		SccProjectTopLevelParentUniqueName19 = X-Medicina.sln
+		SccProjectName19 = Infraestructura.RecursosHumanos
+		SccLocalPath19 = Infraestructura.RecursosHumanos
+		SccProjectUniqueName20 = Infraestructura.Seguridad\\Infraestructura.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName20 = X-Medicina.sln
+		SccProjectName20 = Infraestructura.Seguridad
+		SccLocalPath20 = Infraestructura.Seguridad
+		SccProjectUniqueName21 = Infraestructura.ServidorCorreo\\Infraestructura.CorreoElectronico.csproj
+		SccProjectTopLevelParentUniqueName21 = X-Medicina.sln
+		SccProjectName21 = Infraestructura.ServidorCorreo
+		SccLocalPath21 = Infraestructura.ServidorCorreo
+		SccProjectUniqueName22 = Infraestructura.Turno\\Infraestructura.Turnos.csproj
+		SccProjectTopLevelParentUniqueName22 = X-Medicina.sln
+		SccProjectName22 = Infraestructura.Turno
+		SccLocalPath22 = Infraestructura.Turno
+		SccProjectUniqueName23 = Presentacion.Comun\\Presentacion.Comun.csproj
+		SccProjectTopLevelParentUniqueName23 = X-Medicina.sln
+		SccProjectName23 = Presentacion.Comun
+		SccLocalPath23 = Presentacion.Comun
+		SccProjectUniqueName24 = Presentacion.ConsultaPaciente\\Presentacion.ConsultaPaciente.csproj
+		SccProjectTopLevelParentUniqueName24 = X-Medicina.sln
+		SccProjectName24 = Presentacion.ConsultaPaciente
+		SccLocalPath24 = Presentacion.ConsultaPaciente
+		SccProjectUniqueName25 = Presentacion.CorreoElectronico\\Presentacion.CorreoElectronico.csproj
+		SccProjectTopLevelParentUniqueName25 = X-Medicina.sln
+		SccProjectName25 = Presentacion.CorreoElectronico
+		SccLocalPath25 = Presentacion.CorreoElectronico
+		SccProjectUniqueName26 = Presentacion.DatosPaciente\\Presentacion.DatosPaciente.csproj
+		SccProjectTopLevelParentUniqueName26 = X-Medicina.sln
+		SccProjectName26 = Presentacion.DatosPaciente
+		SccLocalPath26 = Presentacion.DatosPaciente
+		SccProjectUniqueName27 = Presentacion.PlantillaFormulario\\Presentacion.PlantillaFormulario.csproj
+		SccProjectTopLevelParentUniqueName27 = X-Medicina.sln
+		SccProjectName27 = Presentacion.PlantillaFormulario
+		SccLocalPath27 = Presentacion.PlantillaFormulario
+		SccProjectUniqueName28 = Presentacion.RecursosHumanos\\Presentacion.RecursosHumanos.csproj
+		SccProjectTopLevelParentUniqueName28 = X-Medicina.sln
+		SccProjectName28 = Presentacion.RecursosHumanos
+		SccLocalPath28 = Presentacion.RecursosHumanos
+		SccProjectUniqueName29 = Presentacion.Seguridad\\Presentacion.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName29 = X-Medicina.sln
+		SccProjectName29 = Presentacion.Seguridad
+		SccLocalPath29 = Presentacion.Seguridad
+		SccProjectUniqueName30 = Servicio.DatosPaciente\\Servicio.DatosPaciente.csproj
+		SccProjectTopLevelParentUniqueName30 = X-Medicina.sln
+		SccProjectName30 = Servicio.DatosPaciente
+		SccLocalPath30 = Servicio.DatosPaciente
+		SccProjectUniqueName31 = Servicio.Seguridad\\Servicio.Seguridad.csproj
+		SccProjectTopLevelParentUniqueName31 = X-Medicina.sln
+		SccProjectName31 = Servicio.Seguridad
+		SccLocalPath31 = Servicio.Seguridad
+		SccProjectUniqueName32 = X-Medicina\\X-Medicina.csproj
+		SccProjectTopLevelParentUniqueName32 = X-Medicina.sln
+		SccProjectName32 = X-Medicina
+		SccLocalPath32 = X-Medicina
+		SccProjectUniqueName33 = Aplicacion.ConsultaPaciente\\Aplicacion.ConsultaPaciente.csproj
+		SccProjectTopLevelParentUniqueName33 = X-Medicina.sln
+		SccProjectName33 = Aplicacion.ConsultaPaciente
+		SccLocalPath33 = Aplicacion.ConsultaPaciente
+		SccProjectUniqueName34 = Presentacion.Turno\\Presentacion.Turno.csproj
+		SccProjectTopLevelParentUniqueName34 = X-Medicina.sln
+		SccProjectName34 = Presentacion.Turno
+		SccLocalPath34 = Presentacion.Turno
+		SccProjectUniqueName35 = Aplicacion.Turno\\Aplicacion.Turno.csproj
+		SccProjectTopLevelParentUniqueName35 = X-Medicina.sln
+		SccProjectName35 = Aplicacion.Turno
+		SccLocalPath35 = Aplicacion.Turno
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49898B2C-47A7-4A7E-9451-CAC4D23D49C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49898B2C-47A7-4A7E-9451-CAC4D23D49C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49898B2C-47A7-4A7E-9451-CAC4D23D49C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49898B2C-47A7-4A7E-9451-CAC4D23D49C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B31D3B-8363-4D53-8AE0-A0280C895D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B31D3B-8363-4D53-8AE0-A0280C895D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B31D3B-8363-4D53-8AE0-A0280C895D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B31D3B-8363-4D53-8AE0-A0280C895D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C7F3830-9321-4B69-ADD1-5814EB42B8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7F3830-9321-4B69-ADD1-5814EB42B8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7F3830-9321-4B69-ADD1-5814EB42B8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7F3830-9321-4B69-ADD1-5814EB42B8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7162E16-667F-4E39-9F67-7A9C76734A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7162E16-667F-4E39-9F67-7A9C76734A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7162E16-667F-4E39-9F67-7A9C76734A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7162E16-667F-4E39-9F67-7A9C76734A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355AC439-F807-47C1-85C7-B8AA984EDCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355AC439-F807-47C1-85C7-B8AA984EDCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355AC439-F807-47C1-85C7-B8AA984EDCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355AC439-F807-47C1-85C7-B8AA984EDCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B25FBA78-F547-413B-9815-EEC3406FC505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25FBA78-F547-413B-9815-EEC3406FC505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25FBA78-F547-413B-9815-EEC3406FC505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25FBA78-F547-413B-9815-EEC3406FC505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA2837-E131-4FF3-A2A5-A6042B467CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA2837-E131-4FF3-A2A5-A6042B467CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA2837-E131-4FF3-A2A5-A6042B467CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA2837-E131-4FF3-A2A5-A6042B467CF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BF3E28-2E17-4477-99B0-2704A4D47253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BF3E28-2E17-4477-99B0-2704A4D47253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BF3E28-2E17-4477-99B0-2704A4D47253}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BF3E28-2E17-4477-99B0-2704A4D47253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8849ADE-BA3C-437E-B358-7E67E262FFD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8849ADE-BA3C-437E-B358-7E67E262FFD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8849ADE-BA3C-437E-B358-7E67E262FFD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8849ADE-BA3C-437E-B358-7E67E262FFD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A42D9A5-D875-4CE7-9267-6160A371AABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A42D9A5-D875-4CE7-9267-6160A371AABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A42D9A5-D875-4CE7-9267-6160A371AABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A42D9A5-D875-4CE7-9267-6160A371AABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9981D43-0EBC-4593-88C1-FB3E0289F804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9981D43-0EBC-4593-88C1-FB3E0289F804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9981D43-0EBC-4593-88C1-FB3E0289F804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9981D43-0EBC-4593-88C1-FB3E0289F804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51998A1-1036-4554-9B6A-9B55A343546C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51998A1-1036-4554-9B6A-9B55A343546C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51998A1-1036-4554-9B6A-9B55A343546C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51998A1-1036-4554-9B6A-9B55A343546C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E07981DF-E048-4F0E-B79C-701D5DF5EB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07981DF-E048-4F0E-B79C-701D5DF5EB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07981DF-E048-4F0E-B79C-701D5DF5EB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07981DF-E048-4F0E-B79C-701D5DF5EB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2F6BD5-D811-4C07-A43D-3921C288E63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2F6BD5-D811-4C07-A43D-3921C288E63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2F6BD5-D811-4C07-A43D-3921C288E63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2F6BD5-D811-4C07-A43D-3921C288E63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7504C5D4-1643-45CB-B1E5-5980FAF67BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7504C5D4-1643-45CB-B1E5-5980FAF67BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7504C5D4-1643-45CB-B1E5-5980FAF67BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7504C5D4-1643-45CB-B1E5-5980FAF67BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0C9443-1298-43B5-BCDD-44E93C9489F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0C9443-1298-43B5-BCDD-44E93C9489F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0C9443-1298-43B5-BCDD-44E93C9489F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0C9443-1298-43B5-BCDD-44E93C9489F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4D98B9-6A86-4482-A117-A850F471EAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4D98B9-6A86-4482-A117-A850F471EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4D98B9-6A86-4482-A117-A850F471EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4D98B9-6A86-4482-A117-A850F471EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BCFA193-7A06-465A-8EE4-2302CC994C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCFA193-7A06-465A-8EE4-2302CC994C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCFA193-7A06-465A-8EE4-2302CC994C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCFA193-7A06-465A-8EE4-2302CC994C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3787F286-D449-4244-99F4-ACFEFBFDB648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3787F286-D449-4244-99F4-ACFEFBFDB648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3787F286-D449-4244-99F4-ACFEFBFDB648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3787F286-D449-4244-99F4-ACFEFBFDB648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BEC892-E840-4E7A-BC1E-BEBF9990B238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BEC892-E840-4E7A-BC1E-BEBF9990B238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BEC892-E840-4E7A-BC1E-BEBF9990B238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BEC892-E840-4E7A-BC1E-BEBF9990B238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45861718-B290-4829-82F6-2760A3C3F59B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45861718-B290-4829-82F6-2760A3C3F59B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45861718-B290-4829-82F6-2760A3C3F59B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45861718-B290-4829-82F6-2760A3C3F59B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504FB840-6C21-4DAA-B271-B266653F27FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504FB840-6C21-4DAA-B271-B266653F27FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504FB840-6C21-4DAA-B271-B266653F27FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504FB840-6C21-4DAA-B271-B266653F27FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C88E1F-FA93-465F-B28E-BE33D50AE7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C88E1F-FA93-465F-B28E-BE33D50AE7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C88E1F-FA93-465F-B28E-BE33D50AE7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C88E1F-FA93-465F-B28E-BE33D50AE7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C9723B-2982-44D5-B48C-2964962A125D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C9723B-2982-44D5-B48C-2964962A125D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C9723B-2982-44D5-B48C-2964962A125D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C9723B-2982-44D5-B48C-2964962A125D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4029FE-0FDD-4713-8E19-BFF66977833F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4029FE-0FDD-4713-8E19-BFF66977833F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4029FE-0FDD-4713-8E19-BFF66977833F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4029FE-0FDD-4713-8E19-BFF66977833F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11417BA-7CD0-42E1-905F-74A6DCDD49F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625F26C7-2EC3-4EA4-9627-A4CE455FDE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625F26C7-2EC3-4EA4-9627-A4CE455FDE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625F26C7-2EC3-4EA4-9627-A4CE455FDE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625F26C7-2EC3-4EA4-9627-A4CE455FDE74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3FF30E8-3233-4F07-9D52-1CDD61C37B69} = {00AD1040-87FC-403C-918B-6795E619A3CA}
+		{1D0033AC-9C65-4B56-9C45-E00CDFF4FC99} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{DF328A44-6E5B-4500-B5AB-DA793340EC9B} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{24001F4F-805B-477A-8A6A-106E4B609AA7} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{A2AA7F14-2DFB-488E-92DF-DF656F37377A} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{0BDB06E6-5F06-4EF8-9860-283CBDC09842} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{9458714E-58B3-4B15-9142-C4140F871C5D} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{635E792C-210E-4756-B202-4B5EBC9FE45A} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{B48DB46A-178B-4F59-A377-CC33C44329F6} = {A97A52CE-E8C6-4B1C-9520-B8D99ABFCFDB}
+		{4F4BDA48-768E-42C0-B0F4-C5D6172960F1} = {E49E124C-9D31-4911-BD9B-1A05E2319A04}
+		{E0D051AF-6A83-44E6-A659-16A6713AA973} = {E49E124C-9D31-4911-BD9B-1A05E2319A04}
+		{A4667B4F-125C-46B3-907E-40D9718887DD} = {218DFB83-408B-4E8B-9EC1-E0AF75B0AE00}
+		{DDFBBC01-6499-47C1-A023-42413D15F996} = {218DFB83-408B-4E8B-9EC1-E0AF75B0AE00}
+		{2F852B1E-7890-4CC9-8918-434C18869C0D} = {218DFB83-408B-4E8B-9EC1-E0AF75B0AE00}
+		{6DB23509-1F2A-44A6-A2E0-FD0EE96C1F19} = {0CF9F08C-68B0-489B-97E5-D291A461FF98}
+		{67B40890-4F40-4B2A-B9AC-61D62B36B4BA} = {0CF9F08C-68B0-489B-97E5-D291A461FF98}
+		{CFB9DE22-0A3B-4662-BF33-D3ED313518A1} = {0CF9F08C-68B0-489B-97E5-D291A461FF98}
+		{9993BE33-F84D-44AE-ACFC-DE96D21ECC88} = {0CF9F08C-68B0-489B-97E5-D291A461FF98}
+		{8E7A157B-BA5E-4DCC-8EEC-031A9BDBDC8E} = {A4667B4F-125C-46B3-907E-40D9718887DD}
+		{BE1E7C08-7DBC-4A15-B0B5-56EFC496AA0B} = {6DB23509-1F2A-44A6-A2E0-FD0EE96C1F19}
+		{6EBCBB66-0C43-48E7-824A-B28B40DFB18B} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{CAE7D8A6-35BB-47A1-B394-5D2905E8FBBA} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{6EA632BB-F6F6-4662-BD9E-66D261737E49} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{2E105989-908A-4D22-85C0-B88C2E4CE7F9} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{F9BBF289-3927-4948-A532-9CE95D251EB7} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{2A282F45-C4B4-4743-8960-40DB2020C8B3} = {DDFBBC01-6499-47C1-A023-42413D15F996}
+		{3C53FFC7-9159-4413-9533-E14E63324DA7} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{7CC8F31E-145E-4322-94BD-C6F1D7843855} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{76A78FFB-3E75-4E00-A672-A6DB578058A0} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{9AE8B6D7-52FF-433A-9F5F-10B1C54E55F5} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{54229944-8FF4-45A2-8A61-496EC9E10929} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{A79C6371-2D14-4BAC-A49A-3BE1CBBE7F75} = {67B40890-4F40-4B2A-B9AC-61D62B36B4BA}
+		{49898B2C-47A7-4A7E-9451-CAC4D23D49C2} = {6EBCBB66-0C43-48E7-824A-B28B40DFB18B}
+		{8E35116F-8DCE-47D4-9DE2-A0F95079FAE4} = {CAE7D8A6-35BB-47A1-B394-5D2905E8FBBA}
+		{82B31D3B-8363-4D53-8AE0-A0280C895D19} = {3C53FFC7-9159-4413-9533-E14E63324DA7}
+		{8C7F3830-9321-4B69-ADD1-5814EB42B8BD} = {7CC8F31E-145E-4322-94BD-C6F1D7843855}
+		{CEAC4538-1EB2-44AB-BC6E-1D0E76626FF8} = {E3FF30E8-3233-4F07-9D52-1CDD61C37B69}
+		{E7162E16-667F-4E39-9F67-7A9C76734A32} = {E3FF30E8-3233-4F07-9D52-1CDD61C37B69}
+		{359B6630-E4DB-4A05-A365-50D617E6778B} = {E3FF30E8-3233-4F07-9D52-1CDD61C37B69}
+		{B25FBA78-F547-413B-9815-EEC3406FC505} = {CEAC4538-1EB2-44AB-BC6E-1D0E76626FF8}
+		{355AC439-F807-47C1-85C7-B8AA984EDCF7} = {1D0033AC-9C65-4B56-9C45-E00CDFF4FC99}
+		{24169AE9-249C-48FC-8CC1-7CC58ADE5370} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{6459EE8B-6FD0-4DBF-8EF4-ABF8243C90D3} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{C61E3B0B-2AF2-4DB6-8A1F-D392DB87514A} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{4D0C633E-2730-4BBA-B320-82A209A6963F} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{6FD2DDA1-266B-4FE3-95FC-8E4000C123AE} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{E534D37B-B507-4296-BE07-F5352C1D5E6F} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{277A6877-112E-4022-A6BC-9F362827594E} = {359B6630-E4DB-4A05-A365-50D617E6778B}
+		{07BA2837-E131-4FF3-A2A5-A6042B467CF5} = {24169AE9-249C-48FC-8CC1-7CC58ADE5370}
+		{52BF3E28-2E17-4477-99B0-2704A4D47253} = {DF328A44-6E5B-4500-B5AB-DA793340EC9B}
+		{D8849ADE-BA3C-437E-B358-7E67E262FFD5} = {24001F4F-805B-477A-8A6A-106E4B609AA7}
+		{3A42D9A5-D875-4CE7-9267-6160A371AABE} = {6EA632BB-F6F6-4662-BD9E-66D261737E49}
+		{E9981D43-0EBC-4593-88C1-FB3E0289F804} = {76A78FFB-3E75-4E00-A672-A6DB578058A0}
+		{3B1D35B6-DB4B-4798-AF42-4CFB5DF05682} = {6459EE8B-6FD0-4DBF-8EF4-ABF8243C90D3}
+		{57D876E6-4A53-4A46-B6BC-A243AF6E7CE6} = {C61E3B0B-2AF2-4DB6-8A1F-D392DB87514A}
+		{ECDC5990-467C-4D78-A0F8-9DA63B6C41D2} = {9993BE33-F84D-44AE-ACFC-DE96D21ECC88}
+		{C51998A1-1036-4554-9B6A-9B55A343546C} = {2F852B1E-7890-4CC9-8918-434C18869C0D}
+		{7315605A-B4C1-4D01-BEE2-38B3E7DB07B0} = {4F4BDA48-768E-42C0-B0F4-C5D6172960F1}
+		{E07981DF-E048-4F0E-B79C-701D5DF5EB5D} = {4D0C633E-2730-4BBA-B320-82A209A6963F}
+		{EE2F6BD5-D811-4C07-A43D-3921C288E63C} = {A2AA7F14-2DFB-488E-92DF-DF656F37377A}
+		{7504C5D4-1643-45CB-B1E5-5980FAF67BEA} = {2E105989-908A-4D22-85C0-B88C2E4CE7F9}
+		{AE0C9443-1298-43B5-BCDD-44E93C9489F3} = {9AE8B6D7-52FF-433A-9F5F-10B1C54E55F5}
+		{0C4D98B9-6A86-4482-A117-A850F471EAB8} = {0BDB06E6-5F06-4EF8-9860-283CBDC09842}
+		{6BCFA193-7A06-465A-8EE4-2302CC994C4E} = {6FD2DDA1-266B-4FE3-95FC-8E4000C123AE}
+		{3787F286-D449-4244-99F4-ACFEFBFDB648} = {9458714E-58B3-4B15-9142-C4140F871C5D}
+		{12BEC892-E840-4E7A-BC1E-BEBF9990B238} = {E0D051AF-6A83-44E6-A659-16A6713AA973}
+		{45861718-B290-4829-82F6-2760A3C3F59B} = {F9BBF289-3927-4948-A532-9CE95D251EB7}
+		{504FB840-6C21-4DAA-B271-B266653F27FA} = {54229944-8FF4-45A2-8A61-496EC9E10929}
+		{9A7CF7AB-4FCE-4E57-A20E-C271EA8A7F09} = {2A282F45-C4B4-4743-8960-40DB2020C8B3}
+		{64C88E1F-FA93-465F-B28E-BE33D50AE7A2} = {A79C6371-2D14-4BAC-A49A-3BE1CBBE7F75}
+		{33C9723B-2982-44D5-B48C-2964962A125D} = {E534D37B-B507-4296-BE07-F5352C1D5E6F}
+		{0E4029FE-0FDD-4713-8E19-BFF66977833F} = {635E792C-210E-4756-B202-4B5EBC9FE45A}
+		{C11417BA-7CD0-42E1-905F-74A6DCDD49F2} = {277A6877-112E-4022-A6BC-9F362827594E}
+		{625F26C7-2EC3-4EA4-9627-A4CE455FDE74} = {B48DB46A-178B-4F59-A377-CC33C44329F6}
+	EndGlobalSection
+EndGlobal

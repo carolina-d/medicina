@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33C9723B-2982-44D5-B48C-2964962A125D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentacion.ConsultaPaciente</RootNamespace>
+    <AssemblyName>Presentacion.ConsultaPaciente</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aplicacion.DatosPaciente, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\DotNetBar for Windows Forms\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Dominio.Comun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dominio.Comun\bin\Debug\Dominio.Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="Dominio.DatosPaciente, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dominio.DatosPaciente\bin\Debug\Dominio.DatosPaciente.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Presentacion.Comun, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Presentacion.Comun\bin\Debug\Presentacion.Comun.dll</HintPath>
+    </Reference>
+    <Reference Include="Presentacion.DatosPaciente">
+      <HintPath>..\Presentacion.DatosPaciente\obj\Debug\Presentacion.DatosPaciente.dll</HintPath>
+    </Reference>
+    <Reference Include="Servicio.DatosPaciente, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Servicio.DatosPaciente\bin\Debug\Servicio.DatosPaciente.dll</HintPath>
+    </Reference>
+    <Reference Include="Servicio.Seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Servicio.Seguridad\bin\Debug\Servicio.Seguridad.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.3.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Librerias\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConsultaPacienteVista\_ABM_ConsultaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaPacienteVista\_ABM_ConsultaPaciente.Designer.cs">
+      <DependentUpon>_ABM_ConsultaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPacienteVista\_ConsultaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaPacienteVista\_ConsultaPaciente.Designer.cs">
+      <DependentUpon>_ConsultaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HistoriaClinicaVista\_00601_HistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HistoriaClinicaVista\_00601_HistoriaClinica.Designer.cs">
+      <DependentUpon>_00601_HistoriaClinica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="_00500_Sintomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00500_Sintomas.Designer.cs">
+      <DependentUpon>_00500_Sintomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00501_ABM_Sintomas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00501_ABM_Sintomas.Designer.cs">
+      <DependentUpon>_00501_ABM_Sintomas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00502_MotivoConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00502_MotivoConsulta.Designer.cs">
+      <DependentUpon>_00502_MotivoConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00503_ABM_MedicamentoRecetado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00503_ABM_MedicamentoRecetado.Designer.cs">
+      <DependentUpon>_00503_ABM_MedicamentoRecetado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00503_ABM_MotivoConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00504_EstudiosPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00504_EstudiosPedidos.Designer.cs">
+      <DependentUpon>_00504_EstudiosPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00505_ABM_EstudiosPedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00505_ABM_EstudiosPedidos.Designer.cs">
+      <DependentUpon>_00505_ABM_EstudiosPedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00505__MedicamentoRecetado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00505__MedicamentoRecetado.Designer.cs">
+      <DependentUpon>_00505__MedicamentoRecetado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00504_Vademecum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00504_Vademecum.Designer.cs">
+      <DependentUpon>_00504_Vademecum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00505_ABM_Vademecum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00505_ABM_Vademecum.Designer.cs">
+      <DependentUpon>_00505_ABM_Vademecum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00506_Certificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00506_Certificado.Designer.cs">
+      <DependentUpon>_00506_Certificado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00508_TipoEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00508_TipoEstudio.Designer.cs">
+      <DependentUpon>_00508_TipoEstudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00507_ABM_Certificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00507_ABM_Certificado.Designer.cs">
+      <DependentUpon>_00507_ABM_Certificado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_00509_ABM_TipoEstudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_00509_ABM_TipoEstudio.Designer.cs">
+      <DependentUpon>_00509_ABM_TipoEstudio.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConsultaPacienteVista\_ABM_ConsultaPaciente.resx">
+      <DependentUpon>_ABM_ConsultaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HistoriaClinicaVista\_00601_HistoriaClinica.resx">
+      <DependentUpon>_00601_HistoriaClinica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00500_Sintomas.resx">
+      <DependentUpon>_00500_Sintomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00501_ABM_Sintomas.resx">
+      <DependentUpon>_00501_ABM_Sintomas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00503_ABM_MedicamentoRecetado.resx">
+      <DependentUpon>_00503_ABM_MedicamentoRecetado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00503_ABM_MotivoConsulta.resx">
+      <DependentUpon>_00503_ABM_MotivoConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00505_ABM_EstudiosPedidos.resx">
+      <DependentUpon>_00505_ABM_EstudiosPedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00505_ABM_Vademecum.resx">
+      <DependentUpon>_00505_ABM_Vademecum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00507_ABM_Certificado.resx">
+      <DependentUpon>_00507_ABM_Certificado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_00509_ABM_TipoEstudio.resx">
+      <DependentUpon>_00509_ABM_TipoEstudio.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aplicacion.ConsultaPaciente\Aplicacion.ConsultaPaciente.csproj">
+      <Project>{0e4029fe-0fdd-4713-8e19-bff66977833f}</Project>
+      <Name>Aplicacion.ConsultaPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aplicacion.IoC.StructureMap\Aplicacion.IoC.StructureMap.csproj">
+      <Project>{355ac439-f807-47c1-85c7-b8aa984edcf7}</Project>
+      <Name>Aplicacion.IoC.StructureMap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.Base\Dominio.Base.csproj">
+      <Project>{8e7a157b-ba5e-4dcc-8eec-031a9bdbdc8e}</Project>
+      <Name>Dominio.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Dominio.HistoriaClinica\Dominio.ConsultaPaciente.csproj">
+      <Project>{45861718-b290-4829-82f6-2760a3c3f59b}</Project>
+      <Name>Dominio.ConsultaPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infraestructura.HistoriaClinica\Infraestructura.ConsultaPaciente.csproj">
+      <Project>{504fb840-6c21-4daa-b271-b266653f27fa}</Project>
+      <Name>Infraestructura.ConsultaPaciente</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.PlantillaFormulario\Presentacion.PlantillaFormulario.csproj">
+      <Project>{b25fba78-f547-413b-9815-eec3406fc505}</Project>
+      <Name>Presentacion.PlantillaFormulario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Presentacion.RecursosHumanos\Presentacion.RecursosHumanos.csproj">
+      <Project>{07ba2837-e131-4ff3-a2a5-a6042b467cf5}</Project>
+      <Name>Presentacion.RecursosHumanos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Librerias\StructureMap.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.RecursosHumanos.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.RecursosHumanos.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.Base.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.Base.pdb
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.dll
+D:\Mis Documentos\Facultad\Cristian\Laboratorio 3\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.RecursosHumanos.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.RecursosHumanos.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.Base.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\bin\Debug\Dominio.Base.pdb
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.csprojResolveAssemblyReference.cache
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.dll
+C:\Users\caro\Desktop\Parciales de Laboratorio\Proyecto de Laboratorio3 Ultimo\Proyecto Laboratorio 3 Ultimo\X-Medicina\Dominio.RecursosHumanos\obj\Debug\Dominio.RecursosHumanos.pdb
